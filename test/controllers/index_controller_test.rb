@@ -3,7 +3,7 @@ require_relative '../../app/controllers/index_controller.rb'
 
 class IndexControllerTest < ActionController::TestCase
   test "the name" do
-    expected_name = "John"
+    expected_name = "I am great!"
 
     controller = IndexController.new
     controller.home
