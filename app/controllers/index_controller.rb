@@ -1,6 +1,6 @@
 class IndexController < ApplicationController
 	def home
-		@name = "John"
+		@name = "I am great!"
 	end
   attr_reader :name
 end
